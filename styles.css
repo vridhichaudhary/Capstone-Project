@@ -1,0 +1,197 @@
+body {
+    height:5,077px;
+    width: 1,440px;
+    min-height: 900px;
+    padding: 0 ;
+    margin: 0;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    line-height: 1.6;
+    }
+
+    header{
+        height:96px;
+        width:1344px;
+        padding-top:24px;
+        gap:8px;
+        background-color: #FFFFFF;
+    }
+     
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2419f322;
+    width:1080px;
+    height:72px;
+    padding: 1px 32px 1px 32px;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px 0px #00000029;
+    }
+
+    nav a {
+        text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    margin: 0 15px;
+    font-style: "Archivo";
+    font-weight: 400px;
+    line-height: 24px;
+    }
+
+    .menu-left,
+    .menu-right {
+    display: flex;
+    }
+
+    .menu-left a:first-child {
+    margin-left: 0;
+    }
+
+    .menu-right a:last-child {
+    margin-right: 0;
+    }
+
+    .container{
+      width: Fill (1,344px)px;
+    height: Hug (4,813px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 0px;
+    opacity: 0px;
+    }
+
+    .brand {
+    font-size: 42px;
+    font-weight: 200px;
+    font-family: "DotGothic16";
+    color: black;
+    margin: 0 auto; 
+    line-height: 42px;
+    text-align: center;
+    margin-left: 250px;
+    }
+
+    
+    .avatar {
+      text-align: center;
+      padding-top:6px;
+      padding-bottom: 96px;
+      gap:48px;
+      background-color: #FFFFFF;
+    }
+
+    .avatar h1 {
+      font-size: 120px;
+      font-weight: 400px;
+      font-family: "DotGothic16";
+      line-height: 120px;
+      letter-spacing:-2%;
+      text-align: center;
+      color:#000000;
+    }
+
+    .avatar img {
+    width:1344px;
+    height: 672px;
+    border-top: 1px solid #000000
+
+    }
+
+    
+    .projects {
+      width:1344px;
+      height:1542px;
+      border-bottom: 1px;
+      gap: 96px;
+      padding-top:200px;
+      padding-bottom:96px;
+      background-color: #FFFFFF;
+    }
+
+    .written{
+      width:900px;
+      height:340px;
+      max-width: 900px;
+    }
+
+    .written h3{
+      font-family: "DotGothic16";
+      font-weight: 50px;
+      font-size: 64px;
+      line-height: 68px;
+      letter-spacing: -2%;
+      color:#000000;
+      text-align: left;
+      margin-left: 45px;
+      margin-bottom: 60px;
+    }
+
+    .picture img{
+      width:1440px;
+      height: 810px;
+      border-top: 1px solid #000000;
+      text-align: center;
+      margin-left:45px;
+      margin-right:40px;
+      margin-top:200px;
+    }
+
+    .grid-outer {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3vw;
+      padding: 20px;
+      width: 90vw;
+  }
+  
+  .card {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: 0.3s ease;
+  }
+  
+  .card:hover {
+      transform: scale(1.032);
+      cursor: pointer;
+  }
+  
+  .card img:hover {
+      box-shadow: 0 0 25px 0 rgb(255, 16, 240);
+  }
+  
+  .card img {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .card p,
+  .card span {
+      font-size: 1.5vw;
+      font-family:"Archivo";
+      line-height: 1.5;
+      font-weight: 400;
+      margin-top: 6px;
+      margin-left: 10px;
+  }
+  
+  .card span {
+      font-size: 1.4vw;
+      color:#000000;
+      margin-left: 2px;
+  }
+   
+    footer {
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    
